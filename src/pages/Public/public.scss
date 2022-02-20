@@ -1,0 +1,23 @@
+.public {
+  &__head {
+    display: flex;
+    justify-content: flex-end;
+    padding: 24px;
+
+    button {
+      background-color: #eb3c3c;
+      border: 0;
+      border-radius: 4px;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 700;
+      padding: 6px 12px;
+      cursor: pointer;
+    }
+  }
+
+  .card {
+    max-width: 330px;
+    margin: 0 auto;
+  }
+}
